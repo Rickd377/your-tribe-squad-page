@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hero {
+  height: 100svh;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto minmax(0, 1fr);
+  padding: 2rem;
+
+  .carousel {
+    min-height: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &:hover .group {
+      animation-play-state: paused;
+    }
+
+    &:last-child {
+      flex-direction: row-reverse;
+
+      .group {
+        animation-name: scrollingRight;
+      }
+    }
+
+    .group {
+      display: flex;
+      gap: 1rem;
+      padding-right: 1rem;
+      flex-shrink: 0;
+      height: 100%;
+      
+      @media (prefers-reduced-motion: no-preference) {
+        animation: scrollingLeft 180s linear infinite;
+      }
+
+      img {
+        height: 100%;
+        width: auto;
+        object-fit: contain;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+}
+
+@keyframes scrollingLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollingRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
