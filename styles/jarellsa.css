@@ -1,10 +1,138 @@
-body
-{background-color:rgb(203, 222, 215); 
+body {
+    background-color: #dddaf9;
+    margin: 0;
+    font-family: "Goudy Type", Georgia, serif;
+}
+
+.hero {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin: 25px 0;
+    color: black;
+    text-decoration: none;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 10px 0;
+}
+
+.carousel2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: scroll 30s linear infinite reverse;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 10px 0;
+}
+
+.img {
+    width: 205px;
+    height: 205px;
+    flex-shrink: 0;
+    margin-right: 5px;
+    border-radius: 5px;
+    object-fit: cover;
+    border:solid rgb(0, 0, 0);
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.campus {
+    width: 450px;
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
 
 }
-.img
-{
+
+.text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+     line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 35px 0 20px;
+
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #bcd3f1;
+    color: rgb(22, 36, 220);
+    border: none;
+    cursor: pointer;
+}
+.hero {
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0 15px;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
     border-radius: 5px;
-    height: 200px;
-    width: 150px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+.campus {
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+hr {
+    margin: 35px 0;
+     border: none;
+    border-top: 2px solid #000000;
+    margin: 40px 10%;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: Georgia, serif;
+    color: #000000;
 }
