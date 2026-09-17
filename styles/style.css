@@ -8,6 +8,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: "PT Serif", sans-serif;
 }
 
 .hero {
@@ -19,6 +20,10 @@ body {
   .carousel {
     overflow-y: hidden;
     width: 100%;
+
+    &:hover .track {
+      animation-play-state: paused;
+    }
 
     @media (min-width: 768px) {
       overflow: hidden;
@@ -71,6 +76,90 @@ body {
   justify-content: center;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  text-align: center;
+  margin: 2.5rem 0 1.5rem;
+  font-weight: 700;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  padding: 0 2rem 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .04);
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: .5rem;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      line-height: 1.3rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+
+    .tag {
+      font-size: .75rem;
+      font-weight: 600;
+      padding: .25rem .6rem;
+      border-radius: 20px;
+      white-space: nowrap;
+      background: #edf2f7;
+      color: #2d3748;
+      height: fit-content;
+
+      &.tag-brainstorm {
+        background: #e0e7ff;
+        color: #3730a3;
+      }
+
+      &.tag-creative {
+        background: #fce7f3;
+        color: #9d174d;
+      }
+
+      &.tag-coffee {
+        background: #fef3c7;
+        color: #92400e;
+      }
+
+      &.tag-food {
+        background: #fee2e2;
+        color: #991b1b;
+      }
+
+      &.tag-study {
+        background: #dbeafe;
+        color: #1e40af;
+      }
+
+      &.tag-offcampus {
+        background: #f3e8ff;
+        color: #6b21a8;
+      }
+    }
+  }
 }
 
 @keyframes scroll {
