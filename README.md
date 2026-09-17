@@ -1,14 +1,16 @@
-## Inhoudsopgave
+<h1 id="inhoudsopgave">Inhoudsopgave</h1>
 
-<a href="#beschrijving">beschrijving</a>
-<a href="#gebruik">gebruik</a>
-<a href="#contactgegevens">contactgegevens</a>
-<a href="#routebeschrijving">routebeschrijving</a>
-<a href="#kenmerken">kenmerken</a>
-<a href="#HTML">HTML</a>
-<a href="#CSS">CSS</a>
+<ul>
+<li><a href="#beschrijving">Beschrijving</a><li>
+<li><a href="#gebruik">Gebruik</a><li>
+<li><a href="#contactgegevens">Contactgegevens</a><li>
+<li><a href="#routebeschrijving">Routebeschrijving</a><li>
+<li><a href="#kenmerken">Kenmerken</a><li>
+<li><a href="#HTML">HTML</a><li>
+<li><a href="#CSS">CSS</a><li>
+</ul>
 
-## Beschrijving
+<h2 id="beschrijving">Beschrijving</h2>
 
 Op de site vind je een overzicht van het hele tribe in de vorm van portretfoto's. 
 Als je op de foto van een persoon klikt, word je automatisch doorgestuurd naar 
@@ -18,9 +20,7 @@ Onderaan, bij het kopje "Amstelcampus", worden verschillende gebouwen op de
 campus beschreven, met telkens de bijbehorende locatie. Het gaat om plekken 
 waar je bijvoorbeeld een koffie kunt drinken, kunt lunchen of rustig kunt werken.
 
-<h2 id="beschrijving">beschrijving</h2>
-
-## Gebruik
+<h2 id="gebruik">Gebruik</h2>
 
 Op de pagina staan de mugfoto's van elk teamlid. Als je op een foto klikt, 
 word je doorgestuurd naar het persoonlijke visitekaartje van die persoon.
@@ -36,32 +36,22 @@ locaties op de Amstelcampus. Per locatie wordt kort toegelicht waar je er
 terechtkan (bijvoorbeeld om te brainstormen, koffie te halen of te lunchen), 
 waarbij de naam van de locatie steeds vetgedrukt is aangegeven.
 
-<h2 id="gebruik">gebruik</h2>
-
-## Contactgegevens
+<h2 id="contactgegevens">Contactgegevens</h2>
 
 Locatie
 Mail
 Nummer
 
-<h2 id="contactgegevens">contactgegevens</h2>
-
-## Routebeschrijving
+<h2 id="routebeschrijving">Routebeschrijving</h2>
 
 Routebeschrijving van alle locaties in de campus
 
-<h2 id="routebeschrijving">routebeschrijving</h2>
-
-## Kenmerken
+<h2 id="kenmerken">Kenmerken</h2>
 
 Onderdelen die de site uniek maken
 
-<h2 id="kenmerken">kenmerken</h2>
-
-### HTML
 
 <h2 id="HTML">HTML</h2>
 
-### CSS
 
 <h2 id="CSS">CSS</h2>
