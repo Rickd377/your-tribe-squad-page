@@ -1,14 +1,12 @@
-h1 id="inhoudsopgave">Inhoudsopgave</h1>
+<h1 id="inhoudsopgave">Inhoudsopgave</h1>
 
-<ul>
-<li><a href="#beschrijving">Beschrijving</a><li>
-<li><a href="#gebruik">Gebruik</a><li>
-<li><a href="#contactgegevens">Contactgegevens</a><li>
-<li><a href="#routebeschrijving">Routebeschrijving</a><li>
-<li><a href="#kenmerken">Kenmerken</a><li>
-<li><a href="#HTML">HTML</a><li>
-<li><a href="#CSS">CSS</a><li>
-</ul>
+- <a href="#beschrijving">Beschrijving</a>
+- <a href="#gebruik">Gebruik</a>
+- <a href="#contactgegevens">Contactgegevens</a>
+- <a href="#routebeschrijving">Routebeschrijving</a>
+- <a href="#kenmerken">Kenmerken</a>
+- <a href="#HTML">HTML</a>
+- <a href="#CSS">CSS</a>
 
 <h2 id="beschrijving">Beschrijving</h2>
 
